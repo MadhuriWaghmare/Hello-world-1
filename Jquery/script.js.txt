@@ -1,0 +1,12 @@
+$(document).ready(function(){
+  $('div#name').css('color' , 'blue');
+   $('ul').css ('color', 'red');
+   $('li').css('color','orange');
+   
+   $('div#name').click(function(){
+     $(this).animate({
+         height: '+=10px'
+     });
+});
+       
+});
